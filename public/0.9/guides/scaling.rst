@@ -186,7 +186,7 @@ Scaling Vertically
 dotCloud allows you to change, up and down, the quantity of memory allocated for
 any service at any moment, by using the ``dotcloud scale`` command::
 
-   dotcloud scale www:memory=512M
+   dotcloud scale www:memory=512MB
 
 The change is applied immediately and transparently for your service. If your
 service is already scaled horizontally this will change the quantity of memory
